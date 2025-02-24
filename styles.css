@@ -1,0 +1,66 @@
+body{
+   font-family:Arial,sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgba(230, 177, 230, 0.333);
+}
+header{
+     background-color: #333333;
+     color: purple;
+text-align: center;
+}
+nav a{
+       color: white;
+       text-decoration: none;
+       margin: 0 15px;
+       font-weight: bold;
+}
+nav a:hover{
+         text-decoration: underline;
+         font-size: 54px;
+}
+section{ 
+   width: 80%;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: plum;
+   box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+footer{
+   background-color: #333333;
+   color: white;
+   text-align: center;
+   margin:0 10px;
+   margin-top: 20px;
+}
+footer a{
+   color: palevioletred;
+   text-decoration: none;
+   margin: 20px;
+   font-weight: bold;
+}
+img{
+   border-radius: 30px;
+}
+form{
+   background: rgba(230, 177, 230, 0.333);
+   padding: 15px;
+   border-radius: 5px;
+}
+form input[type="text"], form input[type="email"], form input[type="password"]{
+   width: 100%;
+   padding: 8px;
+   margin: 5px 0;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+form input[type="submit"]{
+   padding: 10px;
+   border: none;
+   background-color: #333333;
+   color: pink;
+   cursor: pointer;
+}
+#delBtn{
+   background-color: rgb(206,10,10);
+}
